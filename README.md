@@ -1,7 +1,7 @@
-# cost-efficient-unlearning-llms
-Official Repository for Towards Robust and Cost-Efficient Knowledge Unlearning for Large Language Models (ICLR 2025, Paper Link)
+# Towards Robust and Cost-Efficient Knowledge Unlearning for Large Language Models
+Official Repository for Towards Robust and Cost-Efficient Knowledge Unlearning for Large Language Models (ICLR 2025, [Paper Link](https://openreview.net/forum?id=1ExfUpmIW4))
 
-This repository is largely derived from the TOFU dataset (https://github.com/locuslab/tofu)
+This repository is largely derived from the TOFU dataset [repo](https://github.com/locuslab/tofu)
 
 ### 0. Setup Environment
 
