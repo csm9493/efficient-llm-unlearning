@@ -18,10 +18,20 @@ pip install flash-attn --no-build-isolation
 ```
 
 ### 1. Full finetune to obtain base models
+To finetune Llama2-7B on the `Forget10` split of TOFU using `BSZ/GAS/LR` of `4/4/1e-5`, run:
 ```
-bash run_finetune.sh
+CUDA_VISIBLE_DEVICES=0,1 torchrun \
+    --nproc_per_node=2 \
+    --master_port=28765 \
+    finetune.py \
+    --config-name=finetune.yaml \
+    split=forget10 \
+    batch_size=4 \
+    gradient_accumulation_steps=4 \
+    model_family=llama2-7b \
+    lr=1e-5
 ```
-Example runs are available in run_finetune.sh
+Example runs are available in `run_finetune.sh`. Different LLMs can also be added to `config/model_config.yaml`
 
 ### 2. Unlearn forget set from base models (with LoRA)
 ```
