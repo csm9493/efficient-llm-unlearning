@@ -4,7 +4,7 @@
 
 This repository is largely derived from the TOFU dataset [repo](https://github.com/locuslab/tofu)
 
-## TOFU Experiments (all steps are run in /TOFU)
+## TOFU Experiments (all steps are run within `/TOFU`)
 ---
 
 ### 1. Setup Environment
