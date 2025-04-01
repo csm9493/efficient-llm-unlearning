@@ -105,7 +105,7 @@ Example runs are available in `run_aggregate.sh`. Final results should be availa
 
 ## TDEC Experiments
 ---
-In progress... will be uploaded soon!
+⚠️ In progress... will be uploaded soon!
 
 
 ## Citing our work
