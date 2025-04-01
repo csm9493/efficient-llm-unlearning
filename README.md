@@ -108,7 +108,7 @@ Example runs are available in `run_aggregate.sh`. Final results should be availa
 In progress... will be uploaded soon!
 
 
-### Citing our work
+## Citing our work
 Please consider citing our work if you found our work useful!
 ```
 @inproceedings{
