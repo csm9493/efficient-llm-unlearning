@@ -2,7 +2,7 @@
 ---
 ![method](assets/method_illustration.png)
 
-This repository is largely derived from the TOFU dataset [repo](https://github.com/locuslab/tofu)
+This repository is largely derived from the [TOFU dataset](https://github.com/locuslab/tofu).
 
 ## TOFU Experiments (all steps are run within `/TOFU`)
 ---
@@ -100,8 +100,23 @@ python aggregate_eval_stat.py \
     method_name=IHL_FILA \
     save_file=./final_results/llama2-7b_IHL_FILA_target-all_r-32_forget10_step-60.csv
 ```
+
 Example runs are available in `run_aggregate.sh`. Final results should be available in `final_results/`.
 
 ## TDEC Experiments
 ---
 In progress... will be uploaded soon!
+
+
+### Citing our work
+Please consider citing our work if you found our work useful!
+```
+@inproceedings{
+cha2025towards,
+title={Towards Robust and Parameter-Efficient Knowledge Unlearning for {LLM}s},
+author={Sungmin Cha and Sungjun Cho and Dasol Hwang and Moontae Lee},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=1ExfUpmIW4}
+}
+```
