@@ -1,0 +1,17 @@
+model_family: null
+
+LoRA:
+  r: 0 # do not use LoRA for finetuning
+  alpha: 32
+  dropout: 0.05
+
+data_path: locuslab/TOFU
+split: null
+batch_size: null
+gradient_accumulation_steps: null
+num_epochs: 5
+lr: null
+save_dir: ./llm_weights/ft_epoch${num_epochs}_lr${lr}_${model_family}_${split}_wd${weight_decay}
+
+weight_decay: 0.01
+seed: 42
