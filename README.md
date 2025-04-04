@@ -1,4 +1,4 @@
-# Towards Robust and Cost-Efficient Knowledge Unlearning for Large Language Models (ICLR 2025, [Paper Link](https://openreview.net/forum?id=1ExfUpmIW4))
+# Towards Robust and Parameter-Efficient Knowledge Unlearning for LLMs (ICLR 2025, [Paper Link](https://openreview.net/forum?id=1ExfUpmIW4))
 ---
 ![method](assets/method_illustration.png)
 
