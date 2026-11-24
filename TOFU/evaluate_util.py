@@ -266,7 +266,7 @@ def main(cfg):
     batch_size = cfg.batch_size
 
     model = None
-    if 'grad_diff_hinge_flora' in cfg.model_path:
+    if 'FILA' in cfg.model_path:
         config = AutoConfig.from_pretrained(cfg.base_model_path)
     else:
         config = AutoConfig.from_pretrained(model_id)
@@ -285,7 +285,7 @@ def main(cfg):
                     device_map=device_map
                 )
             else:
-                if 'grad_diff_hinge_flora' in cfg.model_path:
+                if 'FILA' in cfg.model_path:
                     model = AutoModelForCausalLM.from_pretrained(
                         cfg.base_model_path, 
                         config=config, 

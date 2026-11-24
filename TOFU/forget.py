@@ -241,7 +241,6 @@ def main(cfg):
 
     if cfg.importance_file: # if using FILA
 
-        cfg.save_dir = cfg.save_dir.replace(cfg.forget_loss, cfg.forget_loss+"_FILA")
         print(f'loading importance file from {cfg.importance_file}')
         imp_file = torch.load(cfg.importance_file, map_location='cpu')
         
